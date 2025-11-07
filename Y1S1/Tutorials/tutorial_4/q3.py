@@ -1,10 +1,11 @@
 #Variable Declaration
-a = 0
-b = 0
 result = 1
+i = 0
+a = int(input("Enter number a: "))
+b = int(input("Enter number b: "))
 
-while (result):
-    a = int(input("Enter number a:"))
-    b = int(input("Enter number b:"))
-    result = a**b
-    print(f"{a} to the power of {b} is {result}")
+while (i < b):
+    result = result * a
+    i += 1
+
+print(f"{a} to the power of {b} is {result}")
